@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300&family=Roboto:wght@100;300&display=swap');
+html{
+  scroll-behavior: smooth;
+}
+body{
+  background-color: rgb(20, 20, 20);
+}
+.navbar 
+{
+  background-color: transparent;
+  justify-content: center;
+  display: flex;
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+.navbar a {
+  font-family: 'Roboto', sans-serif;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5vw;
+  margin-left: 40px;
+  text-decoration: none;
+  color: white;
+  
+}
+
+
+.navbar .active 
+{
+  padding-bottom: 4px;
+  position: relative;
+  text-decoration: none; 
+}
+
+.profiler
+{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 30vw;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+  background-color: white;
+  border-radius: 2vw;
+  margin-top: 100px;
+  padding: 6vw;
+  
+}
+.profiler img 
+{
+  height: 10vw;
+  width: 10vw;
+  border-radius: 10vw;
+  margin-top: -110px;
+}
+.profiler h1
+{
+  font-family: 'Montserrat',sans-serif;
+  color: black;
+  text-align: center;
+  font-size: 1.6vw;
+}
+.profiler h3
+{
+  font-family: 'Roboto',sans-serif;
+  color: rgba(0, 0, 0, 0.575);
+  font-size: 1vw;
+  text-align: center;
+}
+.profiler h5
+{
+  font-family: 'Montserrat',sans-serif;
+  color: rgba(0, 0, 0, 0.459);
+  font-size: 1.3vw;
+}
+.socialmedia
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 30px;
+  
+}
+.icon
+{
+  animation: flow 2s ease-in-out infinite;
+  color: black;
+}
+.fa-google
+{
+  animation-delay: 1s;
+}
+.fa-linkedin
+{
+  animation-delay: 2s;
+}
+.fa-twitter
+{
+  animation-delay: 3s;
+}
+@keyframes flow {
+  0%
+  {
+    transform: translateY(0);
+  }
+  50%
+  {
+    transform: translateY(-3px);
+  }
+  100%
+  {
+    transform: translateY(0);
+  }
+}
+.skill{
+  margin-top: 6vw;
+  position:relative;
+}
+
+.skill h1
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+  color: white;
+  font-family: 'Montserrat',sans-serif;
+  font-size: 3.5vw;
+  
+}
+.skill h1:hover
+{
+  text-shadow: 2px 2px 5px rgba(253, 186, 0, 0.575);
+}
